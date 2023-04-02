@@ -1,0 +1,33 @@
+h1{
+  font-family: "papyrus", fantasy;
+  font-size: 300%;
+  font-weight: 700;
+  color: rgb(118, 0, 0);
+  letter-spacing: 25px;
+  word-spacing: 35px;
+  margin-top: 0px;
+}
+
+button#order{
+  padding: 10px 32px;
+  background-color: rgba(190, 0, 0, 0.795);
+  color: rgb(255, 242, 242);
+  font-size: 75%;
+  border-radius: 10px;
+  float:right;
+  margin-right: 12%;
+}
+
+p#order{
+  font-size: larger;
+  align-items: center;
+}
+
+button#order:hover {
+  background-color: rgba(255, 0, 0, 0.795)
+}
+
+button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(2.5%);
+}
